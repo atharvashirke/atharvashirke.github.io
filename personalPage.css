@@ -1,0 +1,105 @@
+#profilePhoto {
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+}
+
+#profile-text {
+	padding-top: 50px;
+}
+
+.corporate-logo {
+	width: 50px;
+	height: 50px;
+	margin-right: 10px;
+	margin-bottom: 5px;
+}
+
+.section-title {
+	text-align: center;
+	color: white;
+	margin-bottom: 10px;
+}
+
+.card {
+	background-color: white;
+	padding: 50px;
+	margin-top: 30px;
+}
+
+
+#heading {
+	margin-top: 20px;
+	color: white;
+}
+
+body {
+	background-color: #4a4948;
+}
+
+.social-icons {
+	color: white;
+	margin-right: 10px;
+}
+
+.social-icons:hover {
+	filter: invert(1);
+}
+
+.project-card {
+	color: white;
+	text-align: center;
+	padding: 50px;
+	margin-top: 10px;
+	width: 500px;
+	height: 250px;
+}
+
+.project-card:hover {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+}
+
+#voronoi {
+	background-image: linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),
+    url("img/voronoiDiagram.png");
+}
+
+#scheme {
+	background-image: linear-gradient(
+      rgba(0, 0, 0, 0.65),
+      rgba(0, 0, 0, 0.65)
+    ),
+	url("img/sicp.jpg");
+}
+
+#ants {
+	background-image: linear-gradient(
+      rgba(0, 0, 0, 0.45),
+      rgba(0, 0, 0, 0.45)
+    ),
+	url("img/ants.png");
+}
+
+#hog {
+	background-image: linear-gradient(
+      rgba(0, 0, 0, 0.45),
+      rgba(0, 0, 0, 0.45)
+    ),
+	url("img/pig.jpg");
+	background-position: center;
+}
+
+a {
+	color: inherit;
+}
+
+a:hover {
+	color: inherit;
+}
+
+hr {
+	border: 1px solid white;
+}

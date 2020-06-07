@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="personalPage.css">
+	<script src="https://kit.fontawesome.com/8ea3f0d2fd.js" crossorigin="anonymous"></script>
+	<title>Atharva Shirke | Home</title>
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+	  <a class="navbar-brand" href="#">
+	    <img src="img/signature.png" width="120" height="45" alt="">
+	  </a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+
+	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	    <ul class="navbar-nav ml-auto">
+	      <li class="nav-item active">
+	        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="#work-experience">Work Experience</a>
+	      </li>
+	      <li class="nav-item dropdown">
+	        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	          Projects
+	        </a>
+	        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+	          <a class="dropdown-item" href="https://github.com/atharvashirke/YelpMaps">YelpMaps</a>
+	          <a class="dropdown-item" href="https://github.com/atharvashirke/SchemeInterpreter">Scheme Interpreter</a>
+	          <a class="dropdown-item" href="https://github.com/atharvashirke/AntsColonyDefense">Ants Colony Defense</a>
+	          <a class="dropdown-item" href="https://github.com/atharvashirke/TheGameofHog">The Game of Hog</a>
+	        </div>
+	      </li>
+	   </div>
+	</nav>
+
+	<div class="container">
+		<div class="row" id="heading">
+			<div class="col-lg-4">
+				<img id="profilePhoto" src="img/profile-square.jpg" alt="">
+			</div>
+			<div class="col-lg-8">
+				<div id="profile-text">
+					<h1>Hi! I'm Atharva.</h1>
+					<h2>🎯 Aspiring fullstack developer | CS @ UC Berkeley</h2>
+					<a href="https://www.linkedin.com/in/atharvashirke/">
+						<i class="fab fa-linkedin fa-2x social-icons"></i>
+					</a>
+					<a href="https://github.com/atharvashirke">
+						<i class="fab fa-github-square fa-2x social-icons"></i>
+					</a>
+					<a href="https://www.facebook.com/atharvashirke0/">
+						<i class="fab fa-facebook-square fa-2x social-icons"></i>
+					</a>
+					<a href="mailto:atharvashirke@berkeley.edu">
+						<i class="fas fa-envelope-square fa-2x social-icons"></i>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<h3 class="section-title">Projects</h3>
+		<div class="row">
+			<div class="col-lg-6" align="center">
+				<div id="voronoi" class="project-card">
+					<a href="https://github.com/atharvashirke/YelpMaps">
+						<h4>YelpMaps</h4>
+						<hr>
+						<p>A program complete with unsupervised learning algorithms to predict user ratings and produce a visual model in the form of Voronoi diagrams.</p>
+					</a>
+				</div>
+			</div>
+			<div class="col-lg-6">
+				<div id="scheme" class="project-card">
+					<a href="https://github.com/atharvashirke/SchemeInterpreter">
+						<h4>Scheme Interpreter</h4>
+						<hr>
+						<p>An interpreter for Scheme using Python. Includes several small programs written in scheme to test the interpreter's functionality.</p>
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-6" align="center">
+				<div id="ants" class="project-card">
+					<a href="https://github.com/atharvashirke/AntsColonyDefense">
+						<h4>Ants Colony Defense</h4>
+						<hr>
+						<p>A tower-defense game where ants prevent bees from entering the colony and/or killing the Queen. Utilizes class inheritance to efficiently program different ant and bee character types. </p>
+					</a>
+				</div>
+			</div>
+			<div class="col-lg-6">
+				<div id="hog" class="project-card">
+					<a href="https://github.com/atharvashirke/TheGameofHog">
+						<h4>The Game of Hog</h4>
+						<hr>
+						<p>A simulator and decision making program that plays the dice game "Hog". The program evaluates decision trees and executes the best possible move. </p>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="container card" id="work-experience">
+		<h3>Work Experience</h3>
+		<h5><img src="img/clinova.png" class= "corporate-logo" alt="">Project Management and Data Analytics Intern @ Clinova Ltd.</h5>
+		<p><em>London, UK</em></p>
+		<ul>
+			<li>Generated consumer profiles for Clinova's major product (O.R.S) through data analysis of Amazon Seller Central records. Built with Pandas and Datascience Python libraries.</li>
+			<li>Created consumer insight reports off Facebook Analytics data. Built with Python.</li>
+			<li>Developed a Facebook comment webscraper for additional data collection. Built with the BeautifulSoup Python library.</li>
+			<li>Created a Slackbot to automate team check-ins. Built with Python and utilizing the Slack API.</li>
+			<li>Contributed to development of a KPI dashboard for <em>Caidr</em> health AI application. Technologies include BigQuery, D3, and SQL.</li>
+			<li>Served as Project Manager for Clinova's MENA region</li>
+			<li>Built and maintained a project management system on Monday.com</li>
+			<li>Created reactive spreadsheets for monitoring regulatory progress of Clinova products utilizing Excel.</li>
+		</ul>
+
+		<h5><img src="img/mealy.jpg" class= "corporate-logo" alt="">Data Science and Business Strategy Consultant @ Mealy.me</h5>
+		<p><em>Berkeley, CA</em></p>
+		<ul>
+			<li>Created a consumer profile by collecting survey data of UC Berkeley students. Data analysis and visualization were done in Pandas and matplotlib Python libraries.</li>
+			<li>Developed and presented business proposals for supply chain improvements in the company's meal preparation product.</li>
+			<li>Consulted the founder on internal customer marketing strategies based off survey-generated consumer insights.</li>
+		</ul>
+
+		<h5><img src="img/eecs.png" class= "corporate-logo" alt="">Academic Intern @ UC Berkeley Electrical Engineering and Computer Sciences</h5>
+		<p><em>Berkeley, CA</em></p>
+		<ul>
+			<li>Provided academic support for <em>CS61A: Structures and Interpretation of Computer Programs</em></li>
+		</ul>
+
+		<h5><img src="img/rutgers.png" class= "corporate-logo" alt="">Research Assistant @ Rutgers University</h5>
+		<p><em>San Ramon, CA</em></p>
+		<ul>
+			<li>Waksman Student Scholars Program - Genomic Sequence Analysis of Landoltia punctata</em></li>
+		</ul>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
