@@ -43,6 +43,10 @@ body {
 	margin-right: 10px;
 }
 
+a.social-icons {
+	text-decoration: none;
+}
+
 .social-icons:hover {
 	filter: invert(1);
 }
