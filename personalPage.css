@@ -1,11 +1,12 @@
 #profilePhoto {
 	width: 250px;
 	height: 250px;
-	border-radius: 50%;
+	border: 2px solid white;
+	margin-top: 20px;
 }
 
 #profile-text {
-	padding-top: 50px;
+	margin-top: 20px;
 }
 
 .corporate-logo {
@@ -17,29 +18,48 @@
 
 .section-title {
 	text-align: center;
-	color: white;
 	margin-top: 20px;
 	margin-bottom: 10px;
 }
 
 .card {
+	color: black;
 	background-color: white;
 	padding: 50px;
 	margin-top: 30px;
+	overflow: hidden;
+}
+
+.card:hover {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+	transition: box-shadow 0.5s;
 }
 
 
 #heading {
 	margin-top: 20px;
-	color: white;
 }
 
 body {
-	background-color: #4a4948;
+	color: white;
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 
 .social-icons {
-	color: white;
 	margin-right: 10px;
 }
 
@@ -57,13 +77,16 @@ a.social-icons {
 	padding: 50px;
 	margin-top: 10px;
 	height: 250px;
+	overflow: hidden;
+	border: 2px solid white;
 }
 
 .project-card:hover {
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+	transition: box-shadow 0.5s;
 }
 
-#voronoi {
+#voronoi:hover {
 	background-image: linear-gradient(
       rgba(0, 0, 0, 0.3),
       rgba(0, 0, 0, 0.3)
@@ -71,7 +94,7 @@ a.social-icons {
     url("img/voronoiDiagram.png");
 }
 
-#scheme {
+#scheme:hover {
 	background-image: linear-gradient(
       rgba(0, 0, 0, 0.65),
       rgba(0, 0, 0, 0.65)
@@ -79,7 +102,7 @@ a.social-icons {
 	url("img/sicp.jpg");
 }
 
-#ants {
+#ants:hover {
 	background-image: linear-gradient(
       rgba(0, 0, 0, 0.45),
       rgba(0, 0, 0, 0.45)
@@ -87,13 +110,31 @@ a.social-icons {
 	url("img/ants.png");
 }
 
-#hog {
+#hog:hover {
 	background-image: linear-gradient(
       rgba(0, 0, 0, 0.45),
       rgba(0, 0, 0, 0.45)
     ),
 	url("img/pig.jpg");
 	background-position: center;
+}
+
+#decal:hover {
+	background-image: linear-gradient(
+      rgba(0, 0, 0, 0.45),
+      rgba(0, 0, 0, 0.45)
+    ),
+	url("img/decal.png");
+	background-position: center;
+}
+
+#speckify:hover {
+	background-image: linear-gradient(
+      rgba(0, 0, 0, 0.45),
+      rgba(0, 0, 0, 0.45)
+    ),
+	url("img/speckify.png");
+	background-size: contain;
 }
 
 a {
