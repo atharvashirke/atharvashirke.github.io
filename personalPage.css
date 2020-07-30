@@ -74,9 +74,8 @@ a.social-icons {
 .project-card {
 	color: white;
 	text-align: center;
-	padding: 50px;
+	padding: 70px;
 	margin-top: 10px;
-	height: 250px;
 	overflow: hidden;
 	border: 2px solid white;
 }
