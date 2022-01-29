@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="personalPage.css">
 	<script src="https://kit.fontawesome.com/8ea3f0d2fd.js" crossorigin="anonymous"></script>
 	<title>Atharva Shirke | Home</title>
@@ -30,7 +30,9 @@
 	          <a class="dropdown-item" href="https://github.com/atharvashirke/YelpMaps">YelpMaps</a>
 	          <a class="dropdown-item" href="https://github.com/atharvashirke/SchemeInterpreter">Scheme Interpreter</a>
 	          <a class="dropdown-item" href="https://github.com/atharvashirke/AntsColonyDefense">Ants Colony Defense</a>
-	          <a class="dropdown-item" href="https://github.com/atharvashirke/TheGameofHog">The Game of Hog</a>
+			  <a class="dropdown-item" href="https://github.com/atharvashirke/TheGameofHog">The Game of Hog</a>
+			  <a class="dropdown-item" href="https://aqueous-beyond-04370.herokuapp.com/">Full Stack Decal</a>
+			  <a class="dropdown-item" href="https://speckify.herokuapp.com/">Speckify</a>
 	        </div>
 	      </li>
 	      <li class="nav-item">
@@ -41,10 +43,10 @@
 
 	<div class="container">
 		<div class="row" id="heading">
-			<div class="col-lg-4">
+			<div class="col-12 text-center">
 				<img id="profilePhoto" src="img/profile-square.jpg" alt="">
 			</div>
-			<div class="col-lg-8">
+			<div class="col-12 text-center">
 				<div id="profile-text">
 					<h1>Hi! I'm Atharva.</h1>
 					<h2>🎯 Aspiring Code Ninja | CS & DS Minor @ UC Berkeley</h2>
@@ -67,13 +69,32 @@
 
 	<div class="container">
 		<h3 class="section-title">Projects</h3>
+		<hr>
 		<div class="row">
-			<div class="col-lg-6" align="center">
+			<div class="col-lg-6">
+				<div id="speckify" class="project-card">
+					<a href="https://speckify.herokuapp.com/">
+						<h4>Speckify</h4>
+						<hr>
+						<p>A web app that provides Spotify users with their top artists & songs year-round.</p>
+					</a>
+				</div>
+			</div>
+			<div class="col-lg-6">
+				<div id="decal" class="project-card">
+					<a href="https://aqueous-beyond-04370.herokuapp.com/">
+						<h4>Full Stack Decal</h4>
+						<hr>
+						<p>Built a complete course for UC Berkeley students, including 4 projects and a course website.</p>
+					</a>
+				</div>
+			</div>
+			<div class="col-lg-6">
 				<div id="voronoi" class="project-card">
 					<a href="https://github.com/atharvashirke/YelpMaps">
 						<h4>YelpMaps</h4>
 						<hr>
-						<p>A program complete with unsupervised learning algorithms to predict user ratings and produce a visual model in the form of Voronoi diagrams.</p>
+						<p>A program to predict user ratings and produce a visual model in the form of Voronoi diagrams.</p>
 					</a>
 				</div>
 			</div>
@@ -82,18 +103,18 @@
 					<a href="https://github.com/atharvashirke/SchemeInterpreter">
 						<h4>Scheme Interpreter</h4>
 						<hr>
-						<p>An interpreter for Scheme using Python. Includes several small programs written in scheme to test the interpreter's functionality.</p>
+						<p>An interpreter for Scheme (a dialect of Lisp) written in Python.</p>
 					</a>
 				</div>
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-lg-6" align="center">
+			<div class="col-lg-6">
 				<div id="ants" class="project-card">
 					<a href="https://github.com/atharvashirke/AntsColonyDefense">
 						<h4>Ants Colony Defense</h4>
 						<hr>
-						<p>A tower-defense game where ants prevent bees from entering the colony and/or killing the Queen. Utilizes class inheritance to efficiently program different ant and bee character types. </p>
+						<p>A tower-defense game where ants prevent bees from entering the colony and/or killing the Queen. </p>
 					</a>
 				</div>
 			</div>
@@ -102,13 +123,12 @@
 					<a href="https://github.com/atharvashirke/TheGameofHog">
 						<h4>The Game of Hog</h4>
 						<hr>
-						<p>A simulator and decision making program that plays the dice game "Hog". The program evaluates decision trees and executes the best possible move. </p>
+						<p>A simulator and decision making program that plays the dice game "Hog". </p>
 					</a>
 				</div>
 			</div>
 		</div>
 	</div>
-
 
 	<div class="container card" id="work-experience">
 		<h3>Work Experience</h3>
@@ -146,8 +166,8 @@
 		</ul>
 	</div>
 
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
